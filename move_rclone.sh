@@ -13,9 +13,9 @@ LOGFILE="/home/ubuntu/qbittorrent-rclone.log"
 
     
     if [[ "$1" == *"/home/ubuntu/torrent/tv-sonarr"* ]]; then
-        DESTINATION="5:zedfr69/Series"
+        DESTINATION="B2:urbucket/TV_SHOW_DIRECTORY_NAME"
     elif [[ "$1" == *"/home/ubuntu/torrent/radarr"* ]]; then
-        DESTINATION="5:zedfr69/Films"
+        DESTINATION="B2:urbucket/MOVIES_DIRECTOY_NAME"
     else
         echo "Erreur : chemin source inconnu"
         exit 1
